@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/footer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="#fff"
+    android:gravity="center" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Don't Remember The Password"
+        android:textColor="#000"
+        android:textSize="18dp"
+        android:id="@+id/footer_tv"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/footer_tv"
+        android:layout_marginTop="3dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="40dp"
+        android:text="New Password"
+        android:textColor="#45b7ff"
+        android:textStyle="bold"
+        android:textAlignment="center"></TextView>
+
+
+</RelativeLayout>

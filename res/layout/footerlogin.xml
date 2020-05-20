@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/footer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="#fff"
+    android:gravity="center" >
+
+    <TextView
+        android:id="@+id/footer_tv"
+        android:layout_width="378dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Help ?"
+        android:textAlignment="center"
+        android:textColor="#fec615"
+        android:textSize="29dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

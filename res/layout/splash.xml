@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7ad7f0">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME   !"
+        android:paddingTop="40dp"
+        android:textColor="#ffff"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/splash_tv">
+        ></TextView>
+    <Space
+        android:layout_width="3dp"
+        android:layout_height="35dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:layout_below="@id/splash_tv"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="You Can Learn Various Course Right at home"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgsplash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/booksbackground"></ImageView>
+
+    <Button
+        android:layout_width="312dp"
+        android:layout_height="91dp"
+        android:layout_below="@id/imgsplash"
+        android:layout_marginTop="-187dp"
+        android:paddingLeft="30dp"
+        android:text="LET'S GO  !"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/splashbtn"
+        android:textSize="29dp"/>
+
+
+</RelativeLayout>
